@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-key = input("")
+key = input()
 password = "Python is awesome"
 if key == password :
-    print("AXXESS GRANTED")
+    print("ACCESS GRANTED")
 else :
     print("ACCESS DENIED")
