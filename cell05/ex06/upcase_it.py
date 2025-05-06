@@ -10,3 +10,4 @@ if len(sys.argv) == 1 :
 else :
     for i in y:
         print(i.upper(), end=" ")
+    print()

@@ -11,3 +11,4 @@ else :
     for char in y:
         if char.isalpha():
             print(char, end=" ")
+    print()
