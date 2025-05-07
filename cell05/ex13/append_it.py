@@ -4,20 +4,18 @@ import sys
 import re
 
 x = len(sys.argv)
-#print("parameters: ",x-1)
 y = sys.argv[1:]
-print(y)
-#z = []
-if x == 1:
-    print("none")
+z = []
+if x > 1:
+    array = re.findall(r".ism",str(sys.argv[1:]))
+    for arg in y:
+        if arg.endswith("ism"):
+            z.append(arg)
+        else :
+            print(arg+"ism")
+    print(z)
+#    print("")
 else :
-    arr = re.findall(r".ism",str(y))
-#    print(len(arr))
-#    if len(arr) != 0:
-    print(arr)
-#    else :
-#        print("none")
-
+    print("none")
 # * operator to unpack the list elements and the sep='' argument in the print()
 # function to specify that no separator should be uesd between the elements.
-
