@@ -20,7 +20,6 @@ def enlarge():
 if len(sys.argv) > 1 :
 
     shrink()
-#    shrink()
 #    x = slice(8)
 #    for arg1 in y:
 #        z.append(arg1[x])
